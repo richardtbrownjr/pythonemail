@@ -4,16 +4,16 @@ from email.MIMEText import MIMEText
 from email.MIMEBase import MIMEBase
 from email import encoders
 
-fromaddr = "abc@gmail.com"
-toaddr = "xyz@gmail.com"
+fromaddr = "richardtbrownjr@gmail.com"
+toaddr = "jfarrar@structurebuildingcompanyus.com", "rbrown@theinstitutenc.org"
 
 msg = MIMEMultipart()
 
 msg['From'] = fromaddr
 msg['To'] = toaddr
-msg['Subject'] = "Early in the Morning"
+msg['Subject'] = "Tesing my code to write and send my own emails"
 
-body = "Told me why?"
+body = "Testing one, two three"
 
 msg.attach(MIMEText(body, 'plain'))
 
